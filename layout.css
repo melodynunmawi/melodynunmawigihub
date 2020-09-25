@@ -1,0 +1,45 @@
+body{background-image:url('space.jpg');
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    color: green;
+    mix-blend-mode: difference;
+    font-size: 30px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px; 
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  
